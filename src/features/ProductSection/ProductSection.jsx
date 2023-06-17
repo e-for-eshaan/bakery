@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './ProductSection.scss'
 import { Link, Outlet } from 'react-router-dom'
 import data from '../../data/categories.json'
-import Modal from '../../components/Modal/Modal'
+
 const ProductSection = () => {
 
     return (

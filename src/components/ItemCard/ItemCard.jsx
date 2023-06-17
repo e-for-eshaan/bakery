@@ -7,10 +7,6 @@ import store from "../../redux/store";
 // styles
 import "./ItemCard.scss"
 
-// images
-import cart from "../../images/cart.svg"
-
-
 const ItemCard = ({
   title, description, price, rating, images
 }) => {

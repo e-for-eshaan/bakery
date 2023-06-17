@@ -6,21 +6,20 @@ import './Search.scss'
 const Search = ({ selection, setData, originalData, setIsLoading }) => {
 
     useEffect(() => {
-        handleTypeFilters(selection)
-    }, [selection])
-
-    const handleTypeFilters = (type) => {
-        if (!type || type === 'all') {
+        const handleTypeFilters = (type) => {
+            if (!type || type === 'all') {
+                setIsLoading(true)
+                setData(originalData)
+                setIsLoading(false)
+                return
+            }
             setIsLoading(true)
-            setData(originalData)
+            const temp = originalData?.filter(item => item.type === type)
             setIsLoading(false)
-            return
+            setData(temp)
         }
-        setIsLoading(true)
-        const temp = originalData?.filter(item => item.type === type)
-        setIsLoading(false)
-        setData(temp)
-    }
+        handleTypeFilters(selection)
+    }, [selection, originalData, setData, setIsLoading])
 
     const handleQueryFilter = (query = "") => {
         if (!query) {
@@ -37,17 +36,6 @@ const Search = ({ selection, setData, originalData, setIsLoading }) => {
                 item.description.toLowerCase().includes(query.toLowerCase())
         })
         setData(temp)
-    }
-
-    const handlePriceFilter = (lowerPrice, upperPrice) => {
-        if (lowerPrice === -1 || upperPrice === -1) {
-            setData(originalData)
-            return
-        }
-    }
-
-    const handleClearFilter = () => {
-        setData(originalData)
     }
 
     const handleInputChange = debounce((value) => {
