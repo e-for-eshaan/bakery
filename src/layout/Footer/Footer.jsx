@@ -4,17 +4,27 @@ import React from "react";
 // styles
 import "./Footer.scss"
 
+// images
+import insta from "../../images/instagram.svg"
+import fb from "../../images/facebook.svg"
+import twitter from "../../images/twitter.svg"
+
 const Footer = () => {
   return (
     <footer>
       <ul>
-        <li>link1</li>
-        <li>link2</li>
-        <li>link3</li>
+        <li>
+          <img width={30} src={insta} alt="" />
+        </li>
+        <li>
+          <img width={25} src={fb} alt="" />
+        </li>
+        <li>
+          <img width={30} src={twitter} alt="" />
+        </li>
       </ul>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, vero
-        aperiam? Vel, suscipit, deleniti
+        Copyright Eshaan 2023
       </p>
     </footer>
   );

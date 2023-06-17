@@ -1,8 +1,14 @@
 import React from "react";
-import { PageLayout, PageSection } from "../../layout";
-
+import { PageSection } from "../../layout";
+import "./HomePage.scss"
+import { Categories, LandingSection } from "../../features";
 const HomePage = () => {
-  return <PageSection>HomePage</PageSection>;
+  return (
+    <PageSection>
+      <LandingSection />
+      <Categories />
+    </PageSection>
+  )
 };
 
 export default HomePage;
