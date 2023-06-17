@@ -10,7 +10,7 @@ const ItemGrid = ({ data }) => {
     {
       data?.map((item, index) => {
         return <ItemCard
-          key={index}
+          key={item.item_name}
           title={item.item_name}
           description={item.description}
           price={item.price}
