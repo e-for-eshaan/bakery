@@ -20,11 +20,11 @@ const Bill = ({ cart }) => {
     total += element.price
   });
   const resultArray = Object.values(distinctEntities);
-  console.log({ cart, distinctEntities })
   return <div className="billWrapper">
     {
       resultArray.map(item =>
         <BillCard
+          key={item.item.title}
           item={item.item}
           quantity={item.quantity}
         />
