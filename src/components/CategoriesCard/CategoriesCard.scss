@@ -1,0 +1,22 @@
+@import "../../styles/variable.scss";
+
+.categoryCard {
+  display: flex;
+  justify-content: space-between;
+  color: $secondaryColor;
+  padding: 12px;
+  border: $secondaryColor 4px solid;
+  border-radius: 25px;
+  .categoryText {
+    width: 190px;
+    h3 {
+      font-family: $sacramento;
+      font-size: 40px;
+      line-height: 0px;
+    }
+  }
+  transition: 0.2s;
+}
+.categoryCard:hover {
+  filter: brightness(70%);
+}
