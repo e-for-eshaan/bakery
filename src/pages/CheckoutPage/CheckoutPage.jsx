@@ -2,7 +2,17 @@ import React from "react";
 import { PageSection } from "../../layout";
 
 const CheckoutPage = () => {
-  return <PageSection>CheckoutPage</PageSection>;
+  return <React.Fragment>
+    <PageSection>
+      CheckoutPage
+    </PageSection>
+    <PageSection>
+      CheckoutPage
+    </PageSection>
+    <PageSection>
+      CheckoutPage
+    </PageSection>
+  </React.Fragment>;
 };
 
 export default CheckoutPage;

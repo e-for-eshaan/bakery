@@ -1,0 +1,24 @@
+{
+  "data": {
+    "categories": [
+      {
+        "title": "Cakes",
+        "img": "",
+        "description": "Embrace the dark allure of wickedly exquisite cakes that tantalize.",
+        "link": "products/cakes"
+      },
+      {
+        "title": "Cookies",
+        "img": "",
+        "description": "Devour dangerously addictive cookies that defy all self-control.",
+        "link": "products/cookies"
+      },
+      {
+        "title": "Breads",
+        "img": "",
+        "description": "Experience rebelliously irresistible breads that challenge culinary norms.",
+        "link": "products/breads"
+      }
+    ]
+  }
+}

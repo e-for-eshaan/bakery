@@ -1,0 +1,105 @@
+@import "../../styles/variable.scss";
+
+.itemCard {
+  border: 2px solid white;
+  border-radius: 8px;
+  position: relative;
+
+  .star-rating {
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+
+  .star {
+    color: gold; // Change the color of the stars
+  }
+
+  .star-filled:before {
+    content: "\2605"; // Filled star symbol
+  }
+
+  .star-empty:before {
+    content: "\2606"; // Empty star symbol
+  }
+
+  .itemDetails {
+    padding: 14px;
+  }
+
+  .caraousel {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__slide {
+      position: relative;
+      height: 200px;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    &__image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.5s;
+
+      &.active {
+        opacity: 1;
+      }
+    }
+
+    &__prev,
+    &__next {
+      font-size: 1.2rem;
+      padding: 0.5rem 1rem;
+      margin-top: 1rem;
+      cursor: pointer;
+      position: absolute;
+      z-index: 1;
+      top: 60px;
+    }
+    &__next {
+      right: 0;
+    }
+    &__prev {
+      left: 0;
+    }
+  }
+  .addToCart {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .addtocartButton {
+    background: $secondaryColor;
+    padding: 4px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .cartButtons {
+    background: $secondaryColor;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  .valueWrap {
+    display: flex;
+    justify-content: space-between;
+  }
+}

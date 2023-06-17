@@ -1,0 +1,19 @@
+@import "../../styles/variable.scss";
+
+.categories {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
+  padding-top: 50px;
+}
+
+@media #{$media-tablet} {
+  .categories {
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+  }
+}

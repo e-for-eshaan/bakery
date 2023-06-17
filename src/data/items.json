@@ -1,0 +1,213 @@
+{
+  "data": [
+    {
+      "item_name": "Chocolate Truffle",
+      "type": "cakes",
+      "description": "A delicious delight with dark chocolate loaded with choco chips and what not, truly a delight",
+      "rating": "4.5",
+      "price": 25.99,
+      "tag": "veg",
+      "images": [
+        "https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2011/6/2/1/CC_Sarabeths-Truffle-Cake_s3x4.jpg.rend.hgtvcom.616.822.suffix/1393351583578.jpeg",
+        "https://parfaitcakes.com/environment/cache/images/500_500_productGfx_941.jpg",
+        "https://static.toiimg.com/thumb/75758092.cms?imgsize=1439590&width=800&height=800"
+      ]
+    },
+    {
+      "item_name": "Vanilla Cupcake",
+      "type": "cakes",
+      "description": "A classic vanilla cupcake with a fluffy texture and buttercream frosting",
+      "rating": "3.2",
+      "price": 3.99,
+      "tag": "non veg",
+      "images": [
+        "https://valentinascorner.com/wp-content/uploads/2022/02/Vanilla-Cupcakes.jpg",
+        "https://www.tastingtable.com/img/gallery/vegan-vanilla-cupcakes-recipe/l-intro-1649683329.jpg"
+      ]
+    },
+    {
+      "item_name": "Chewy Chocolate Chip Cookies",
+      "type": "cookies",
+      "description": "Soft and chewy cookies with generous amounts of chocolate chips",
+      "rating": "2.8",
+      "price": 8.99,
+      "tag": "veg",
+      "images": [
+        "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/62298.jpg",
+        "https://sallysbakingaddiction.com/wp-content/uploads/2013/05/classic-chocolate-chip-cookies.jpg",
+        "https://www.onehappyhousewife.com/wp-content/uploads/2019/08/chewy-chocolate-chip-cookies-15-20211203.jpg"
+      ]
+    },
+    {
+      "item_name": "Oatmeal Raisin Cookies",
+      "type": "cookies",
+      "description": "Hearty oatmeal cookies with sweet raisins and a hint of cinnamon",
+      "rating": "4.3",
+      "price": 7.49,
+      "tag": "non veg",
+      "images": [
+        "https://sallysbakingaddiction.com/wp-content/uploads/2014/07/oatmeal-raisin-cookies-3.jpg"
+      ]
+    },
+    {
+      "item_name": "Sourdough Bread",
+      "type": "breads",
+      "description": "A tangy and crusty bread made from a natural sourdough starter",
+      "rating": "4.6",
+      "price": 6.99,
+      "tag": "veg",
+      "images": [
+        "https://littlespoonfarm.com/wp-content/uploads/2020/01/Sourdough-Bread-Recipe-for-Beginners.jpg",
+        "https://www.kingarthurbaking.com/sites/default/files/2021-07/Rustic-Sourdough-Loaf_0049__0.jpg"
+      ]
+    },
+    {
+      "item_name": "Multigrain Bread",
+      "type": "breads",
+      "description": "A wholesome bread with a mix of nutritious grains and seeds",
+      "rating": "4.4",
+      "price": 5.49,
+      "tag": "veg",
+      "images": [
+        "https://static.toiimg.com/thumb/76626392.cms?width=1200&height=900",
+        "https://thewoksoflife.com/wp-content/uploads/2020/06/multigrain-bread-24.jpg"
+      ]
+    },
+    {
+      "item_name": "Red Velvet Cake",
+      "type": "cakes",
+      "description": "A rich and velvety cake with a hint of cocoa, topped with cream cheese frosting",
+      "rating": "4.7",
+      "price": 34.99,
+      "tag": "non veg",
+      "images": [
+        "https://cdn.sprinklebakes.com/media/2011/02/1-4-1.jpg",
+        "https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2022/11/Red-Velvet-Cake-9.jpg?fit=1360%2C2040&ssl=1"
+      ]
+    },
+    {
+      "item_name": "Peanut Butter Cookies",
+      "type": "cookies",
+      "description": "Crunchy cookies made with creamy peanut butter and a touch of sweetness",
+      "rating": "4.6",
+      "price": 9.99,
+      "tag": "veg",
+      "images": [
+        "https://images-gmi-pmc.edge-generalmills.com/dcd4f799-7353-4e56-ba50-623581cba3bc.jpg"
+      ]
+    },
+    {
+      "item_name": "Banana Bread",
+      "type": "breads",
+      "description": "Moist and flavorful bread packed with ripe bananas and a hint of cinnamon",
+      "rating": "4.5",
+      "price": 7.99,
+      "tag": "non veg",
+      "images": [
+        "https://hips.hearstapps.com/hmg-prod/images/delish-230313-banana-bread-0343-eb-index-6421dc80bf49b.jpg?crop=0.8893463715903243xw:1xh;center,top&resize=1200:*"
+      ]
+    },
+    {
+      "item_name": "Black Forest Cake",
+      "type": "cakes",
+      "description": "Layers of chocolate cake, whipped cream, and cherries, finished with chocolate shavings",
+      "rating": "4.8",
+      "price": 39.99,
+      "tag": "non veg",
+      "images": [
+        "https://parfaitcakes.com/environment/cache/images/500_500_productGfx_941.jpg"
+      ]
+    },
+    {
+      "item_name": "Macadamia Nut Cookies",
+      "type": "cookies",
+      "description": "Buttery cookies packed with roasted macadamia nuts for a delightful crunch",
+      "rating": "4.5",
+      "price": 12.99,
+      "tag": "veg",
+      "images": [
+        "https://static01.nyt.com/images/2022/11/30/dining/SE-White-Chocolate-Macadamia-COOKIEWEEK-copy/merlin_216761685_98436024-b7aa-40ca-a3f1-b092de054297-threeByTwoMediumAt2X.jpg",
+        "data:image/jpeg;base64,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"
+      ]
+    },
+    {
+      "item_name": "Baguette",
+      "type": "breads",
+      "description": "A long and crusty French bread with a soft interior, perfect for sandwiches",
+      "rating": "4.3",
+      "price": 4.99,
+      "tag": "veg",
+      "images": [
+        "https://www.marystestkitchen.com/wp-content/uploads/2022/03/closeupvietnamesebaguettesbanhmi.jpg",
+        "https://www.marystestkitchen.com/wp-content/uploads/2014/09/four-french-bread-loaves-birds-eye-735x490.jpg"
+      ]
+    },
+    {
+      "item_name": "Carrot Cake",
+      "type": "cakes",
+      "description": "A moist and spiced cake filled with grated carrots and topped with cream cheese frosting",
+      "rating": "4.6",
+      "price": 29.99,
+      "tag": "veg",
+      "images": [
+        "https://hips.hearstapps.com/hmg-prod/images/carrot-cake-index-641a055e1a654.jpg?crop=0.6663830993903304xw:1xh;center,top&resize=1200:*"
+      ]
+    },
+    {
+      "item_name": "Sugar Cookies",
+      "type": "cookies",
+      "description": "Butter-based cookies with a sweet and delicate flavor, decorated with colorful sugar icing",
+      "rating": "4.4",
+      "price": 6.99,
+      "tag": "non veg",
+      "images": [
+        "data:image/jpeg;base64,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"
+      ]
+    },
+    {
+      "item_name": "Whole Wheat Bread",
+      "type": "breads",
+      "description": "A wholesome bread made with whole wheat flour, perfect for a healthy sandwich",
+      "rating": "4.5",
+      "price": 5.49,
+      "tag": "veg",
+      "images": [
+        "https://static.toiimg.com/thumb/60515235.cms?imgsize=685119&width=800&height=800"
+      ]
+    },
+    {
+      "item_name": "Strawberry Shortcake",
+      "type": "cakes",
+      "description": "Light and fluffy cake layers filled with fresh strawberries and whipped cream",
+      "rating": "4.7",
+      "price": 32.99,
+      "tag": "non veg",
+      "images": [
+        "https://static01.nyt.com/images/2023/03/13/multimedia/NHJ-Strawberry-Shortcake-qtkw/NHJ-Strawberry-Shortcake-qtkw-threeByTwoMediumAt2X.jpg"
+      ]
+    },
+    {
+      "item_name": "Double Chocolate Cookies",
+      "type": "cookies",
+      "description": "Decadent cookies with a rich chocolate flavor, studded with chocolate chunks",
+      "rating": "4.8",
+      "price": 10.99,
+      "tag": "non veg",
+      "images": [
+        "https://preppykitchen.com/wp-content/uploads/2021/08/Double-Chocolate-Chip-Cookies-Recipe.jpg",
+        "https://static01.nyt.com/images/2022/03/03/dining/SS-double-chocolate-cookies/merlin_203115636_8e81b8c5-a544-4598-8029-bb5b2399e3f9-mediumSquareAt3X.jpg"
+      ]
+    },
+    {
+      "item_name": "Ciabatta Bread",
+      "type": "breads",
+      "description": "An Italian bread with a chewy texture and a dusting of flour on the crust",
+      "rating": "4.6",
+      "price": 6.49,
+      "tag": "veg",
+      "images": [
+        "https://www.aheadofthyme.com/wp-content/uploads/2020/04/easy-small-batch-ciabatta-rolls-11.jpg"
+      ]
+    }
+  ]
+}

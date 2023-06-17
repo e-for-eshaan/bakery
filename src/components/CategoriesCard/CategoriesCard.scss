@@ -1,0 +1,54 @@
+@import "../../styles/variable.scss";
+
+.categoryCard {
+  display: flex;
+  justify-content: space-between;
+  color: $secondaryColor;
+  padding: 12px;
+  border: $secondaryColor 4px solid;
+  border-radius: 25px;
+  .categoryContent {
+    display: flex;
+    gap: 8px;
+  }
+  .categoryText {
+    width: 80%;
+    h3 {
+      font-family: $sacramento;
+      font-size: 40px;
+      line-height: 0px;
+    }
+  }
+  img {
+    width: 20%;
+  }
+  transition: 0.2s;
+}
+.categoryCard:hover {
+  filter: brightness(70%);
+}
+
+@media #{$media-tablet} {
+  .categoryCard {
+    padding: 3px;
+    .categoryContent {
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      .categoryText {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        h3 {
+          font-family: $sacramento;
+          font-size: 30px;
+          line-height: 0px;
+        }
+      }
+      img {
+        width: 40%;
+      }
+    }
+  }
+}
