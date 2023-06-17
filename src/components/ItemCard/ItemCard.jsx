@@ -61,13 +61,15 @@ const AddToCart = ({ item }) => {
   return <div className="addToCart">
 
     {count
-      ? <> <div className="cartButtons" onClick={handleDeleteItem}>
-        -
-      </div>
+      ? <>
+        <div className="cartButtons" onClick={handleDeleteItem}>
+          -
+        </div>
         {count}
         <div className="cartButtons" onClick={handleAddToCart}>
           +
-        </div></>
+        </div>
+      </>
       : <div className="addtocartButton" onClick={handleAddToCart}>Add to Cart</div>}
   </div>
 }

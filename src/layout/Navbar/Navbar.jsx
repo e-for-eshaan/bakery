@@ -10,6 +10,7 @@ import "./Navbar.scss"
 import cart from "../../images/cart.svg"
 import user from "../../images/user.svg"
 import menu from "../../images/menu.svg"
+import { Bill, Modal } from "../../components";
 
 const Navbar = () => {
   const [setshowMenuItems, setSetshowMenuItems] = useState(false)
@@ -58,13 +59,28 @@ const MenuItem = ({ link, text }) => {
 
 const Options = () => {
   const [count, setCount] = useState(0)
-  store.subscribe(() => setCount(store.getState().cartItems.length))
+  const [cartObject, setCartObject] = useState([])
+  const [showBill, setshowBill] = useState(false)
+  store.subscribe(() => {
+    const obj = store.getState().cartItems
+    setCartObject(obj)
+    setCount(obj.length)
+  })
+  const openBill = () => {
+    setshowBill(true)
+  }
+  const closeBill = () => {
+    setshowBill(false)
+  }
   return <div className="secondaryList">
     <img src={menu} className="hamburger" alt="" width={35} />
     <div className="carticon">
-      <img src={cart} alt="" width={30} /><span>{count ? count : ""}</span>
+      <img onClick={openBill} src={cart} alt="" width={30} /><span>{count ? count : ""}</span>
     </div>
     <img src={user} alt="" width={30} />
+    <Modal onClose={closeBill} isOpen={showBill}>
+      <Bill cart={cartObject} />
+    </Modal>
   </div>
 }
 

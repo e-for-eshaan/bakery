@@ -1,0 +1,22 @@
+.billWrapper {
+  min-height: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+  .billItem {
+    display: flex;
+    justify-content: space-between;
+  }
+  .billtitle {
+    display: flex;
+    gap: 16px;
+  }
+  color: black;
+  .billTotal {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+  }
+}

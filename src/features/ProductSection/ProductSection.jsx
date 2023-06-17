@@ -16,15 +16,6 @@ const ProductSection = () => {
                     </div>
                 </Link>)}
             </div>
-            <Modal isOpen={show} onClose={() => setShow(false)}>
-                <div style={{ color: "black" }}>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Harum suscipit necessitatibus dicta blanditiis maiores temporibus
-                    est voluptate accusantium placeat facilis quo culpa, officia omnis
-                    cumque nobis iure aspernatur corrupti itaque nisi. Distinctio,
-                    officiis rerum?
-                </div>
-            </Modal>
             <Outlet />
         </ div >
     )
