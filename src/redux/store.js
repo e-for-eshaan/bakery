@@ -1,5 +1,4 @@
 import { createStore } from "redux";
-import isEqual from "lodash"
 // Define the initial state
 const initialState = {
     cartItems: [],
