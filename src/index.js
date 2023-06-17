@@ -5,6 +5,8 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { PageLayout } from "./layout";
 import { CheckoutPage, HomePage, NotFound } from "./pages";
+import Products from "./pages/Products/Products";
+import { Collection } from "./components";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,6 +15,12 @@ root.render(
       <Route path="/" element={<PageLayout />}>
         <Route index element={<HomePage />} />
         <Route path="checkout" element={<CheckoutPage />} />
+        <Route path="products" element={<Products />} exact={true}>
+          <Route index element={<Collection selection={'all'} />} />
+          <Route path="cakes" element={<Collection selection={'cakes'} />} />
+          <Route path="cookies" element={<Collection selection={'cookies'} />} />
+          <Route path="breads" element={<Collection selection={'breads'} />} />
+        </Route>
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
