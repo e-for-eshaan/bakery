@@ -1,0 +1,32 @@
+@import "../../styles/variable.scss";
+
+.navbar {
+  width: calc(100%-16px);
+  height: calc(70px-16px);
+  position: sticky;
+  top: 0;
+  left: 0;
+  .logo {
+    width: 200px;
+  }
+  padding: 8px;
+  .container {
+    max-width: 1080px;
+    width: $pageWidth;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    align-items: center;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    text-decoration: none;
+  }
+  .secondaryList {
+    width: 200px;
+    justify-content: space-between;
+  }
+}
