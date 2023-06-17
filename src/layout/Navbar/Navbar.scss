@@ -39,6 +39,9 @@
   }
   .primaryList {
     color: $secondaryColor;
+    display: flex;
+    opacity: 1;
+    white-space: nowrap;
   }
   .secondaryList {
     width: 200px;
@@ -47,6 +50,29 @@
     display: flex;
   }
   .minimenu {
-    display: inline;
+  }
+  .hamburger {
+    display: none;
+  }
+  .carticon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    span {
+      position: absolute;
+      bottom: -10px;
+      right: -16px;
+    }
+  }
+}
+
+@media #{$media-tablet} {
+  .navbar {
+    .primaryList {
+      display: none;
+    }
+    .hamburger {
+      display: inline;
+    }
   }
 }

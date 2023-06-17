@@ -1,7 +1,26 @@
+@import "../../styles/variable.scss";
+
 .itemCard {
   border: 2px solid white;
   border-radius: 8px;
   position: relative;
+
+  .star-rating {
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+
+  .star {
+    color: gold; // Change the color of the stars
+  }
+
+  .star-filled:before {
+    content: "\2605"; // Filled star symbol
+  }
+
+  .star-empty:before {
+    content: "\2606"; // Empty star symbol
+  }
 
   .itemDetails {
     padding: 14px;
@@ -56,5 +75,31 @@
     &__prev {
       left: 0;
     }
+  }
+  .addToCart {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .addtocartButton {
+    background: $secondaryColor;
+    padding: 4px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .cartButtons {
+    background: $secondaryColor;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  .valueWrap {
+    display: flex;
+    justify-content: space-between;
   }
 }
