@@ -7,24 +7,29 @@ import { PageLayout } from "./layout";
 import { CheckoutPage, HomePage, NotFound } from "./pages";
 import Products from "./pages/Products/Products";
 import { Collection } from "./components";
+import { Provider } from "react-redux";
+import store from "./redux/store";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+store.subscribe(() => console.log(store.getState()['cartItems']))
 root.render(
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<PageLayout />}>
-        <Route index element={<HomePage />} />
-        <Route path="checkout" element={<CheckoutPage />} />
-        <Route path="products" element={<Products />} exact={true}>
-          <Route index element={<Collection selection={'all'} />} />
-          <Route path="cakes" element={<Collection selection={'cakes'} />} />
-          <Route path="cookies" element={<Collection selection={'cookies'} />} />
-          <Route path="breads" element={<Collection selection={'breads'} />} />
+  <Provider store={store}>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<PageLayout />}>
+          <Route index element={<HomePage />} />
+          <Route path="checkout" element={<CheckoutPage />} />
+          <Route path="products" element={<Products />} exact={true}>
+            <Route index element={<Collection selection={'all'} />} />
+            <Route path="cakes" element={<Collection selection={'cakes'} />} />
+            <Route path="cookies" element={<Collection selection={'cookies'} />} />
+            <Route path="breads" element={<Collection selection={'breads'} />} />
+          </Route>
+          <Route path="*" element={<NotFound />} />
         </Route>
-        <Route path="*" element={<NotFound />} />
-      </Route>
-    </Routes>
-  </BrowserRouter>
+      </Routes>
+    </BrowserRouter>
+  </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function

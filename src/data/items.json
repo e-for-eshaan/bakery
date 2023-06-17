@@ -17,7 +17,7 @@
       "item_name": "Vanilla Cupcake",
       "type": "cakes",
       "description": "A classic vanilla cupcake with a fluffy texture and buttercream frosting",
-      "rating": "4.2",
+      "rating": "3.2",
       "price": 3.99,
       "tag": "non veg",
       "images": [
@@ -29,7 +29,7 @@
       "item_name": "Chewy Chocolate Chip Cookies",
       "type": "cookies",
       "description": "Soft and chewy cookies with generous amounts of chocolate chips",
-      "rating": "4.8",
+      "rating": "2.8",
       "price": 8.99,
       "tag": "veg",
       "images": [
