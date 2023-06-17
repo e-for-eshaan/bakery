@@ -6,7 +6,7 @@ import ItemCard from "../ItemCard/ItemCard";
 import "./ItemGrid.scss"
 
 const ItemGrid = ({ data }) => {
-  return <div>
+  return <div className="itemGrid">
     {
       data?.map((item, index) => {
         return <ItemCard

@@ -15,7 +15,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container">
-        <div className="logo">Scrumptious</div>
+        <Link style={{ color: 'inherit', textDecoration: "none" }} to={'/'}>
+          <div className="logo">Scrumptious</div>
+        </Link>
         <Menu />
         <Options setSetshowMenuItems={setSetshowMenuItems} />
 
@@ -33,8 +35,8 @@ const MiniMenu = () => {
     <MenuItem link={"/"} text="Home" />
     <MenuItem link={"/checkout"} text="Checkout" />
     <MenuItem link={"/"} text="Products" />
-    <MenuItem link={"/"} text="Blog" />
-    <MenuItem link={"/"} text="Contact Us" />
+    <MenuItem link={"/blog"} text="Blog" />
+    <MenuItem link={"/contact"} text="Contact Us" />
   </ul>
 }
 
@@ -44,8 +46,8 @@ const Menu = () => {
       <MenuItem link={"/"} text="Home" />
       <MenuItem link={"/checkout"} text="Checkout" />
       <MenuItem link={"/products"} text="Products" />
-      <MenuItem link={"/"} text="Blog" />
-      <MenuItem link={"/"} text="Contact Us" />
+      <MenuItem link={"/blog"} text="Blog" />
+      <MenuItem link={"/contact"} text="Contact Us" />
     </ul>
   </React.Fragment>
 }

@@ -1,0 +1,60 @@
+.itemCard {
+  border: 2px solid white;
+  border-radius: 8px;
+  position: relative;
+
+  .itemDetails {
+    padding: 14px;
+  }
+
+  .caraousel {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__slide {
+      position: relative;
+      height: 200px;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    &__image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.5s;
+
+      &.active {
+        opacity: 1;
+      }
+    }
+
+    &__prev,
+    &__next {
+      font-size: 1.2rem;
+      padding: 0.5rem 1rem;
+      margin-top: 1rem;
+      cursor: pointer;
+      position: absolute;
+      z-index: 1;
+      top: 60px;
+    }
+    &__next {
+      right: 0;
+    }
+    &__prev {
+      left: 0;
+    }
+  }
+}
