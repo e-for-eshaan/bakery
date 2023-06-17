@@ -2,7 +2,6 @@
 
 .landingSection {
   position: relative;
-  height: 625px;
   overflow: hidden;
   height: calc(100vh - 70px);
   h1 {
@@ -44,6 +43,52 @@
     }
     .text {
       padding-left: 40px;
+    }
+  }
+}
+
+@media #{$media-mobile} {
+  .landingSection {
+    position: relative;
+    overflow: hidden;
+    height: calc(100vh - 70px);
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 1;
+    }
+    .overlay {
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.25)
+      );
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .landingText {
+      top: 80px;
+      text-align: center;
+      width: 100%;
+      p {
+        font-size: 35px;
+        position: relative;
+        bottom: 50px;
+        left: auto;
+        font-family: $sacramento;
+      }
+      .text {
+        padding-left: 40px;
+      }
     }
   }
 }

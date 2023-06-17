@@ -19,6 +19,7 @@ const Categories = () => {
         <section className='categories'>
             {data.data.categories.map((item, index) => {
                 return <CategoriesCard
+                    key={item.title}
                     title={item.title}
                     description={item.description}
                     link={item.link}

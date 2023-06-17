@@ -16,7 +16,6 @@ const cartReducer = (state = initialState, action) => {
         case "REMOVE_FROM_CART":
             const indexToRemove = state.cartItems.findIndex(
                 (item) => {
-                    console.log(action.payload)
                     return item.title === action.payload.title
                 }
             );
