@@ -43,7 +43,7 @@ const Menu = () => {
     <ul className="primaryList">
       <MenuItem link={"/"} text="Home" />
       <MenuItem link={"/checkout"} text="Checkout" />
-      <MenuItem link={"/"} text="Products" />
+      <MenuItem link={"/products"} text="Products" />
       <MenuItem link={"/"} text="Blog" />
       <MenuItem link={"/"} text="Contact Us" />
     </ul>

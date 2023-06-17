@@ -1,0 +1,166 @@
+{
+  "data": [
+    {
+      "item_name": "Chocolate Truffle",
+      "type": "cakes",
+      "description": "A delicious delight with dark chocolate loaded with choco chips and what not, truly a delight",
+      "rating": "4.5",
+      "price": 25.99,
+      "tag": "veg",
+      "images": ["image1.jpg", "image2.jpg", "image3.jpg"]
+    },
+    {
+      "item_name": "Vanilla Cupcake",
+      "type": "cakes",
+      "description": "A classic vanilla cupcake with a fluffy texture and buttercream frosting",
+      "rating": "4.2",
+      "price": 3.99,
+      "tag": "non veg",
+      "images": ["image4.jpg", "image5.jpg", "image6.jpg"]
+    },
+    {
+      "item_name": "Chewy Chocolate Chip Cookies",
+      "type": "cookies",
+      "description": "Soft and chewy cookies with generous amounts of chocolate chips",
+      "rating": "4.8",
+      "price": 8.99,
+      "tag": "veg",
+      "images": ["image7.jpg", "image8.jpg", "image9.jpg"]
+    },
+    {
+      "item_name": "Oatmeal Raisin Cookies",
+      "type": "cookies",
+      "description": "Hearty oatmeal cookies with sweet raisins and a hint of cinnamon",
+      "rating": "4.3",
+      "price": 7.49,
+      "tag": "non veg",
+      "images": ["image10.jpg", "image11.jpg", "image12.jpg"]
+    },
+    {
+      "item_name": "Sourdough Bread",
+      "type": "breads",
+      "description": "A tangy and crusty bread made from a natural sourdough starter",
+      "rating": "4.6",
+      "price": 6.99,
+      "tag": "veg",
+      "images": ["image13.jpg", "image14.jpg", "image15.jpg"]
+    },
+    {
+      "item_name": "Multigrain Bread",
+      "type": "breads",
+      "description": "A wholesome bread with a mix of nutritious grains and seeds",
+      "rating": "4.4",
+      "price": 5.49,
+      "tag": "veg",
+      "images": ["image16.jpg", "image17.jpg", "image18.jpg"]
+    },
+    {
+      "item_name": "Red Velvet Cake",
+      "type": "cakes",
+      "description": "A rich and velvety cake with a hint of cocoa, topped with cream cheese frosting",
+      "rating": "4.7",
+      "price": 34.99,
+      "tag": "non veg",
+      "images": ["image19.jpg", "image20.jpg", "image21.jpg"]
+    },
+    {
+      "item_name": "Peanut Butter Cookies",
+      "type": "cookies",
+      "description": "Crunchy cookies made with creamy peanut butter and a touch of sweetness",
+      "rating": "4.6",
+      "price": 9.99,
+      "tag": "veg",
+      "images": ["image22.jpg", "image23.jpg", "image24.jpg"]
+    },
+    {
+      "item_name": "Banana Bread",
+      "type": "breads",
+      "description": "Moist and flavorful bread packed with ripe bananas and a hint of cinnamon",
+      "rating": "4.5",
+      "price": 7.99,
+      "tag": "non veg",
+      "images": ["image25.jpg", "image26.jpg", "image27.jpg"]
+    },
+    {
+      "item_name": "Black Forest Cake",
+      "type": "cakes",
+      "description": "Layers of chocolate cake, whipped cream, and cherries, finished with chocolate shavings",
+      "rating": "4.8",
+      "price": 39.99,
+      "tag": "non veg",
+      "images": ["image28.jpg", "image29.jpg", "image30.jpg"]
+    },
+    {
+      "item_name": "Macadamia Nut Cookies",
+      "type": "cookies",
+      "description": "Buttery cookies packed with roasted macadamia nuts for a delightful crunch",
+      "rating": "4.5",
+      "price": 12.99,
+      "tag": "veg",
+      "images": ["image31.jpg", "image32.jpg", "image33.jpg"]
+    },
+    {
+      "item_name": "Baguette",
+      "type": "breads",
+      "description": "A long and crusty French bread with a soft interior, perfect for sandwiches",
+      "rating": "4.3",
+      "price": 4.99,
+      "tag": "veg",
+      "images": ["image34.jpg", "image35.jpg", "image36.jpg"]
+    },
+    {
+      "item_name": "Carrot Cake",
+      "type": "cakes",
+      "description": "A moist and spiced cake filled with grated carrots and topped with cream cheese frosting",
+      "rating": "4.6",
+      "price": 29.99,
+      "tag": "veg",
+      "images": ["image37.jpg", "image38.jpg", "image39.jpg"]
+    },
+    {
+      "item_name": "Sugar Cookies",
+      "type": "cookies",
+      "description": "Butter-based cookies with a sweet and delicate flavor, decorated with colorful sugar icing",
+      "rating": "4.4",
+      "price": 6.99,
+      "tag": "non veg",
+      "images": ["image40.jpg", "image41.jpg", "image42.jpg"]
+    },
+    {
+      "item_name": "Whole Wheat Bread",
+      "type": "breads",
+      "description": "A wholesome bread made with whole wheat flour, perfect for a healthy sandwich",
+      "rating": "4.5",
+      "price": 5.49,
+      "tag": "veg",
+      "images": ["image43.jpg", "image44.jpg", "image45.jpg"]
+    },
+    {
+      "item_name": "Strawberry Shortcake",
+      "type": "cakes",
+      "description": "Light and fluffy cake layers filled with fresh strawberries and whipped cream",
+      "rating": "4.7",
+      "price": 32.99,
+      "tag": "non veg",
+      "images": ["image46.jpg", "image47.jpg", "image48.jpg"]
+    },
+    {
+      "item_name": "Double Chocolate Cookies",
+      "type": "cookies",
+      "description": "Decadent cookies with a rich chocolate flavor, studded with chocolate chunks",
+      "rating": "4.8",
+      "price": 10.99,
+      "tag": "non veg",
+      "images": ["image49.jpg", "image50.jpg", "image51.jpg"]
+    },
+    {
+      "item_name": "Ciabatta Bread",
+      "type": "breads",
+      "description": "An Italian bread with a chewy texture and a dusting of flour on the crust",
+      "rating": "4.6",
+      "price": 6.49,
+      "tag": "veg",
+      "images": ["image52.jpg", "image53.jpg", "image54.jpg"]
+    }
+  ]
+}
