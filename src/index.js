@@ -4,7 +4,7 @@ import "./index.scss";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { PageLayout } from "./layout";
-import { CheckoutPage, HomePage } from "./pages";
+import { CheckoutPage, HomePage, NotFound } from "./pages";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,7 +13,7 @@ root.render(
       <Route path="/" element={<PageLayout />}>
         <Route index element={<HomePage />} />
         <Route path="checkout" element={<CheckoutPage />} />
-        <Route path="*" element={<React.Fragment />} />
+        <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
   </BrowserRouter>

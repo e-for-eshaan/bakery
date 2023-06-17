@@ -1,12 +1,14 @@
 import React from "react";
 import { Navbar, Footer } from "../../layout";
 import { Outlet } from "react-router-dom";
-
-const PageLayout = ({ children }) => {
+import './PageLayout.scss'
+const PageLayout = () => {
   return (
     <main>
       <Navbar />
-      <Outlet>{children}</Outlet>
+      <section className="content">
+        <Outlet />
+      </section>
       <Footer />
     </main>
   );
