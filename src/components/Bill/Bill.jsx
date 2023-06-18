@@ -2,6 +2,12 @@ import React from "react";
 import './Bill.scss'
 
 const Bill = ({ cart }) => {
+
+  if (!cart?.length) {
+    return <div className="billWrapper">
+      <h1>Cart is empty!</h1>
+    </div>
+  }
   let distinctEntities = {}
   let total = 0
   cart.forEach(element => {
@@ -44,7 +50,7 @@ const BillCard = ({ item, quantity }) => {
         style={{ backgroundImage: `url(${item.images[0]})`, backgroundSize: 'cover', width: '100px', height: 80 }}
       /> <h4>{item.title}</h4>
     </div>
-    <div>
+    <div className="billValues">
       <p>${item.price}<br />
         ×{quantity}</p>
     </div>

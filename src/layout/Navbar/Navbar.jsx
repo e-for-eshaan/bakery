@@ -26,17 +26,15 @@ const Navbar = () => {
 
 
       </div>
-      <div className="minimenu">
-        {setshowMenuItems && <MiniMenu />}
-      </div>
+      {setshowMenuItems && <MiniMenu />}
     </nav>
   );
 };
 
 const MiniMenu = () => {
-  return <ul className="primaryList">
+  return <ul className="minimenu">
     <MenuItem link={"/"} text="Home" />
-    <MenuItem link={"/"} text="Products" />
+    <MenuItem link={"/products"} text="Products" />
     <MenuItem link={"/blog"} text="Blog" />
   </ul>
 }
@@ -57,7 +55,7 @@ const MenuItem = ({ link, text }) => {
   </li>
 }
 
-const Options = () => {
+const Options = ({ setSetshowMenuItems }) => {
   const [count, setCount] = useState(0)
   const [cartObject, setCartObject] = useState([])
   const [showBill, setshowBill] = useState(false)
@@ -73,9 +71,17 @@ const Options = () => {
     setshowBill(false)
   }
   return <div className="secondaryList">
-    <img src={menu} className="hamburger" alt="" width={35} />
+    <img
+      src={menu}
+      onClick={() => setSetshowMenuItems(prev => !prev)}
+      className="hamburger"
+      alt=""
+      width={35} />
     <div className="carticon">
-      <img onClick={openBill} src={cart} alt="" width={30} /><span>{count ? count : ""}</span>
+      <img onClick={openBill}
+        src={cart} alt=""
+        width={30} />
+      <span>{count ? count : ""}</span>
     </div>
     <img src={user} alt="" width={30} />
     <Modal onClose={closeBill} isOpen={showBill}>

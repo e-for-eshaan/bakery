@@ -50,6 +50,15 @@
     display: flex;
   }
   .minimenu {
+    display: none;
+    background-color: black;
+    width: calc(100% - 16px);
+    justify-content: center;
+    gap: 30px;
+    padding: 8px;
+    color: $secondaryColor;
+    position: absolute;
+    bottom: -50px;
   }
   .hamburger {
     display: none;
@@ -73,6 +82,9 @@
     }
     .hamburger {
       display: inline;
+    }
+    .minimenu {
+      display: flex;
     }
   }
 }
