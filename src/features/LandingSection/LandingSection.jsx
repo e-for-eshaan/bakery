@@ -16,7 +16,6 @@ const LandingSection = () => {
                         The warmest breads...<br />With the warmest regards!
                     </p>
                 </div>
-
             </div>
 
         </div>

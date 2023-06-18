@@ -8,6 +8,10 @@ body {
   color: white;
 }
 
+html {
+  scrollbar-gutter: stable;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

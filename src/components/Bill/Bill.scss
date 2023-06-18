@@ -5,6 +5,10 @@
   gap: 8px;
   max-height: calc(100vh - 100px);
   overflow-y: auto;
+  scrollbar-gutter: stable;
+  .billValues {
+    padding-left: 8px;
+  }
   .billItem {
     display: flex;
     justify-content: space-between;
