@@ -1,19 +1,22 @@
 @import "../../styles/variable.scss";
-.links {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  div {
-    border: 1px solid white;
-    padding: 4px 8px;
-    flex: 1;
-    text-align: center;
-    cursor: pointer;
-    background-color: $secondaryColor;
+.productSection {
+  padding-top: 30px;
+  .links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    div {
+      border: 1px solid white;
+      padding: 4px 8px;
+      flex: 1;
+      text-align: center;
+      cursor: pointer;
+      background-color: $secondaryColor;
+    }
+    div:hover {
+      filter: brightness(70%);
+    }
+    gap: 10px;
+    padding: 15px 0;
   }
-  div:hover {
-    filter: brightness(70%);
-  }
-  gap: 10px;
-  padding: 15px 0;
 }
